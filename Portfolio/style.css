@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000000;
+}
+
+.nav {
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+}
+.logo {
+    width: 100px;
+    height: 50px;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.hero-img {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-green {
+    color: white;
+    background-color: green;
+    box-shadow: 2px 2px white;
+}
+.btn-green:hover{
+    color: #000000;
+    background-color: white;
+    box-shadow: 2px 2px green;
+}
+.btn-white {
+    color: #000000;
+    background-color: white;
+    box-shadow: 2px 2px green;
+}
+.btn-white:hover{
+    color: white;
+    background-color: green;
+    box-shadow: 2px 2px white;
+}
+
+.green {
+    background-color: green;
+}
+
+.turquoise {
+    background-color: turquoise;
+}
+
+/* Underline border */
+.borderul {
+    width: 350px;
+    border-bottom: solid green 5px;
+}
+/* Education border */
+.borderedu {
+    border: solid green 1px;
+}
+
+/* Progress Bar */
+.pbarbg {
+    background-color: rgb(218, 218, 218);
+}
+.pbarhtml {
+    background-color: green;
+    width: 75%;
+    text-align: right;
+}
+.pbarcss {
+    background-color: green;
+    width: 60%;
+    text-align: right;
+}
+.pbarwordpress {
+    background-color: green;
+    width: 90%;
+    text-align: right;
+}
+.pbarjs {
+    background-color: green;
+    width: 40%;
+    text-align: right;
+}
